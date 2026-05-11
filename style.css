@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background:white;
+}
+
+
+
+nav{
+    width:100%;
+    height:70px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 80px;
+    box-shadow:0 3px 10px rgba(28, 22, 22, 0.993);
+}
+
+
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:50px;
+}
+
+.logo h2{
+    font-size:30px;
+    color:orangered;
+    font-weight:bold;
+}
+
+
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#f54e11;
+}
+
+
+.menu a{
+    text-decoration:none;
+    color:#0a0909;
+    margin-left:50px;
+    font-size:18px;
+    font-weight:600;
+}
+
+
+.main{
+    width:100%;
+    height:90vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:0 80px;
+}
+
+
+.left{
+    position:relative;
+    width:50%;
+}
+
+
+
+.left img{
+    width:650px;
+    
+}
+
+
+.right{
+    width:40%;
+}
+
+.right h2{
+    font-size:70px;
+    color:orangered;
+    font-weight:900;
+}
+
+.right h1{
+    font-size:90px;
+    color:#1d1b4f;
+    line-height:95px;
+    margin-top:10px;
+    font-weight:900;
+}
+
+.right p{
+    font-size:24px;
+    color:#181515;
+    line-height:38px;
+    margin:25px 0;
+}
+
+.right button{
+    padding:15px 35px;
+    border:none;
+    background:hsla(235, 90%, 41%, 0);
+    color:rgba(11, 2, 61, 0.801);
+    font-size:22px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.right button:hover{
+    background:orangered;
+}
